@@ -1,0 +1,32 @@
+.deeperFooter {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.singleElement {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.writtenCredit {
+  display: inline-block;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  margin-bottom: 50px;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: grey;
+}

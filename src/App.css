@@ -1,0 +1,12 @@
+.App {
+  height: 100vh;
+  background-color: #282c34;
+  min-width: 400px;
+  min-height: 600px;
+  /*I deleted a padding of 10px*/
+}
+
+.App-header {
+  border-width: 5px;
+  border-color: brown;
+}
