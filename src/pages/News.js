@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from '../navbar/Navbar';
+import Footer from '../footer/Footer';
 
 function News() {
   return (
@@ -10,6 +11,7 @@ function News() {
 
       <body>
         <h1>NEWS</h1>
+        <Footer />
       </body>
     </div>
   );

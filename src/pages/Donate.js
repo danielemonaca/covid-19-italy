@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from '../navbar/Navbar';
+import Footer from '../footer/Footer';
 
 function Donate() {
   return (
@@ -10,6 +11,7 @@ function Donate() {
 
       <body>
         <h1>DONATE</h1>
+        <Footer />
       </body>
     </div>
   );

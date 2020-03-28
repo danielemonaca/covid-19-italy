@@ -2,7 +2,6 @@ import React from 'react';
 import InstagramIcon from './InstagramIcon';
 import GitHubIcon from './GitHubIcon';
 import './Footer.css';
-import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
