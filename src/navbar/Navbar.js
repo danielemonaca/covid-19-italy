@@ -7,6 +7,10 @@ import './navbar-css/navbar-css.css';
 function Navbar() {
   return (
     <div className='navbar'>
+      {console.log(
+        'windows.location.pathname in Navbar',
+        window.location.pathname
+      )}
       <StatsIcon
         className='iconComponent'
         active={window.location.pathname === '/stats' ? true : false}

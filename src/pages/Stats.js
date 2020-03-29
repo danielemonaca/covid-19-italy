@@ -31,7 +31,6 @@ class Stats extends Component {
       death: lastStats.deaths,
       recovered: lastStats.recovered
     });
-    console.log('ciao belli', lastStats);
   }
 
   render() {
@@ -45,6 +44,7 @@ class Stats extends Component {
           <div class='container'>
             <div class='item contaminated-item'>
               <svg
+                style={{ marginTop: 10 }}
                 xmlns='http://www.w3.org/2000/svg'
                 width='80'
                 height='80'
@@ -52,14 +52,35 @@ class Stats extends Component {
               >
                 {ICONS.VIRUS}
               </svg>
+              <p className='lessMargin'> Infettati </p>
               <p className='someMargin'>{this.state.infected}</p>
             </div>
+
             <div class='item deaths-item'>
-              <p class='deaths'>Morti</p>
+              <svg
+                style={{ marginTop: 10 }}
+                xmlns='http://www.w3.org/2000/svg'
+                width='80'
+                height='80'
+                fill='white'
+              >
+                {ICONS.RIP}
+              </svg>
+              <p className='lessMargin'>Morti</p>
               <p className='someMargin'>{this.state.death}</p>
             </div>
+
             <div class='item recovered-item'>
-              <p class='recovered'>Guariti</p>
+              <svg
+                style={{ marginTop: 10 }}
+                xmlns='http://www.w3.org/2000/svg'
+                width='80'
+                height='80'
+                fill='white'
+              >
+                {ICONS.BANDAID}
+              </svg>
+              <p className='lessMargin'>Guariti</p>
               <p className='someMargin'>{this.state.recovered}</p>
             </div>
           </div>

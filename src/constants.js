@@ -92,8 +92,8 @@ export const ICONS = {
       id='Layer_1'
       data-name='Layer 1'
       viewBox='0 0 128 128'
-      width='50'
-      height='50'
+      width='80'
+      height='80'
     >
       <title>BAND AID</title>
       <circle
@@ -275,10 +275,8 @@ export const ICONS = {
       x='0px'
       y='0px'
       viewBox='0 0 512.002 512.002'
-      style='enable-background:new 0 0 512.002 512.002;'
+      //style='enable-background:new 0 0 512.002 512.002;'
       xmlSpace='preserve'
-      width='512'
-      height='512'
     >
       <g>
         <g>
