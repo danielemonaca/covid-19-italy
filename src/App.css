@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&display=swap');
+
 .App {
-  height: 100vh;
+  height: 150vh;
   background-color: #282c34;
   min-width: 400px;
   min-height: 600px;
   /*I deleted a padding of 10px*/
+  font-family: 'Baloo Thambi 2', cursive;
 }
 
 .App-header {
-  border-width: 5px;
   border-color: brown;
+  font-family: 'Baloo Thambi 2', cursive;
 }

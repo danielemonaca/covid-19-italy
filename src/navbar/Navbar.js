@@ -11,8 +11,14 @@ function Navbar() {
         className='iconComponent'
         active={window.location.pathname === '/stats' ? true : false}
       />
-      <NewsIcon className='iconComponent' />
-      <DonateIcon className='iconComponent' />
+      <NewsIcon
+        className='iconComponent'
+        active={window.location.pathname === '/news' ? true : false}
+      />
+      <DonateIcon
+        className='iconComponent'
+        active={window.location.pathname === '/donate' ? true : false}
+      />
     </div>
   );
 }

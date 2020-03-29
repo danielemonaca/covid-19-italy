@@ -10,7 +10,7 @@ function NewsIcon(active) {
         <div
           className={
             active.active
-              ? 'icon-circle icon-circle-a'
+              ? 'icon-circle icon-circle-a noHover'
               : 'icon-circle icon-circle-n'
           }
         >

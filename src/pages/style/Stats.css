@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  padding: 0;
+  margin: 0;
+  margin-top: 80px;
+  list-style: none;
+}
+
+.item {
+  background-color: #323741;
+  border-radius: 3px;
+  padding: 5px;
+  width: 300px;
+  height: 250px;
+  box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  min-width: 300px;
+  min-height: 150px;
+  margin-top: 20px;
+  margin-left: 10em;
+  margin-right: 10em;
+  line-height: 60px;
+  color: #c5c5c5;
+  font-weight: bold;
+  text-align: center;
+}
+
+.recovered-item {
+  border: solid 1px #4caf50;
+}
+
+.deaths-item {
+  border: solid 1px #212121;
+}
+
+.contaminated-item {
+  border: solid 1px #42a5f5;
+}
+
+.recovered {
+  color: #80e27e;
+}
+
+.deaths {
+  color: #424242;
+}
+
+.contaminated {
+  color: #80d6ff;
+}
+
+.someMargin {
+  display: inline-block;
+  margin-top: 0;
+  font-size: 40pt;
+}
