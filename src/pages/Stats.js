@@ -5,6 +5,7 @@ import ReactDOM from 'react-dom';
 import { render } from '@testing-library/react';
 import './style/Stats.css';
 import { ICONS } from '../constants';
+import CountUp from 'react-countup';
 
 class Stats extends Component {
   constructor() {
@@ -15,6 +16,7 @@ class Stats extends Component {
       recovered: 0
     };
   }
+  //<p className='someMargin'>{this.state.death}</p>
 
   async componentDidMount() {
     const response = await fetch(
@@ -41,6 +43,9 @@ class Stats extends Component {
         </header>
 
         <body>
+          <div className='centeringTitle'>
+            <h2>Statistiche italiane coronavirus</h2>
+          </div>
           <div class='container'>
             <div class='item contaminated-item'>
               <svg
@@ -53,7 +58,11 @@ class Stats extends Component {
                 {ICONS.VIRUS}
               </svg>
               <p className='lessMargin'> Infettati </p>
-              <p className='someMargin'>{this.state.infected}</p>
+              <CountUp
+                delay={2}
+                end={this.state.infected}
+                style={{ fontSize: '40pt' }}
+              />
             </div>
 
             <div class='item deaths-item'>
@@ -67,7 +76,11 @@ class Stats extends Component {
                 {ICONS.RIP}
               </svg>
               <p className='lessMargin'>Morti</p>
-              <p className='someMargin'>{this.state.death}</p>
+              <CountUp
+                delay={2}
+                end={this.state.death}
+                style={{ fontSize: '40pt' }}
+              />
             </div>
 
             <div class='item recovered-item'>
@@ -81,7 +94,11 @@ class Stats extends Component {
                 {ICONS.BANDAID}
               </svg>
               <p className='lessMargin'>Guariti</p>
-              <p className='someMargin'>{this.state.recovered}</p>
+              <CountUp
+                delay={2}
+                end={this.state.recovered}
+                style={{ fontSize: '40pt' }}
+              />
             </div>
           </div>
 

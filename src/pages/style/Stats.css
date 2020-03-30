@@ -61,3 +61,20 @@
   margin-top: 0;
   font-size: 40pt;
 }
+
+.centeringTitle {
+  text-align: center;
+}
+
+h2 {
+  display: inline-block;
+  padding: 40px;
+  position: sticky;
+  text-align: center;
+  font-size: 25pt;
+  margin: auto;
+  margin-top: 1em;
+  width: 50%;
+  padding: 10px;
+  color: white;
+}
