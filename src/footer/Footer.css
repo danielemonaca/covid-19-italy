@@ -2,7 +2,6 @@
   display: flex;
   margin: 0 auto;
   justify-content: center;
-  position: fixed;
   bottom: 0;
   width: 100%;
 }
@@ -13,11 +12,9 @@
 }
 
 .writtenCredit {
-  display: inline-block;
-  position: fixed;
-  left: 0;
+  justify-content: center;
   bottom: 0;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   width: 100%;
   text-align: center;
   color: white;

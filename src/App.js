@@ -8,7 +8,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 function App() {
   return (
     <div className='App'>
-      <header className='App-header'>
+      <body className='App-header'>
         <BrowserRouter>
           <div>
             <Route exact path='/' component={Stats} />
@@ -17,7 +17,7 @@ function App() {
             <Route exact path='/donate' component={Donate} />
           </div>
         </BrowserRouter>
-      </header>
+      </body>
     </div>
   );
 }

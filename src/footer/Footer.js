@@ -7,7 +7,7 @@ function Footer() {
   return (
     <div>
       <p className='writtenCredit'>
-        Creato e distribuito gratuitamente da{' '}
+        Creato e distribuito gratuitamente da{'  '}
         <a
           href='http://www.danielemonaca.com'
           target='_blank'

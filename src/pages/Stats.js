@@ -6,6 +6,7 @@ import { render } from '@testing-library/react';
 import './style/Stats.css';
 import { ICONS } from '../constants';
 import CountUp from 'react-countup';
+import ChartVirus from '../ChartVirus';
 
 class Stats extends Component {
   constructor() {
@@ -101,9 +102,13 @@ class Stats extends Component {
               />
             </div>
           </div>
-
-          <Footer />
+          <ChartVirus />
         </body>
+        <footer>
+          <div className='footerFixed'>
+            <Footer />
+          </div>
+        </footer>
       </div>
     );
   }
