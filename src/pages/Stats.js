@@ -14,7 +14,7 @@ class Stats extends Component {
     this.state = {
       infected: 0,
       death: 0,
-      recovered: 0
+      recovered: 0,
     };
   }
   //<p className='someMargin'>{this.state.death}</p>
@@ -32,7 +32,7 @@ class Stats extends Component {
     this.setState({
       infected: lastStats.confirmed,
       death: lastStats.deaths,
-      recovered: lastStats.recovered
+      recovered: lastStats.recovered,
     });
   }
 
@@ -102,7 +102,6 @@ class Stats extends Component {
               />
             </div>
           </div>
-          <ChartVirus />
         </body>
         <footer>
           <div className='footerFixed'>

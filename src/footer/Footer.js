@@ -5,7 +5,7 @@ import './Footer.css';
 
 function Footer() {
   return (
-    <div>
+    <div style={{ marginTop: '20%' }}>
       <p className='writtenCredit'>
         Creato e distribuito gratuitamente da{'  '}
         <a
